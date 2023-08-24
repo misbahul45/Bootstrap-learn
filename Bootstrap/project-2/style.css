@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gradient-brand{
+    background: -webkit-linear-gradient(#6b008b, #ff00aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.toggleButton{
+    background-color: transparent;
+    border: none;
+    margin-top: 4.5px;
+}
+.toggleButton i{
+    font-size: 30px;
+    color: whitesmoke;
+}
+body{
+    min-height: 100vh;
+}
+.bg-hover:hover{
+    background-color: darkblue;
+    border-radius: 20px;
+}
+.bg-hover{
+    width: 120px;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
