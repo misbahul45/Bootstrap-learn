@@ -1,1 +1,1 @@
-#laern bootstarp talwind react 6 month
+#learn bootstarp talwind react 6 month
