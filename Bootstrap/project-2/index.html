@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <nav class="navbar navbar-dark bg-primary bg-gradient navbar-expand-lg fixed-top py-3 shadow">
@@ -21,10 +22,10 @@
                         <a href="#services" class="nav-link text-light fw-semibold fs-5">Services</a>
                     </li>
                     <li class="nav-item bg-hover">
-                        <a href="" class="nav-link text-light fw-semibold fs-5">About</a>
+                        <a href="#promo" class="nav-link text-light fw-semibold fs-5">Promo</a>
                     </li>
                     <li class="nav-item bg-hover">
-                        <a href="" class="nav-link text-light fw-semibold fs-5">Contact Us</a>
+                        <a href="#contact" class="nav-link text-light fw-semibold fs-5">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -48,45 +49,116 @@
         </div>
     </section>
 
-    <section class="services bg-light text-center padding-services" id="services" >
-        <h1 class="text-uppercase fs-2 fw-bold text-primary mb-1" >Our Services</h1>
-        <div class="container-fluid">
+    <section class="services bg-light text-center padding-services"  id="services">
+        <h1 class="text-uppercase fs-2 fw-bold text-primary mb-lg-5 mb-4 " >Our Services</h1>
+        <div class="container">
             <div class="row gap-2">
-                <div class="col-sm">
-                  <div class="card" >
+                <div class="col-md">
+                  <div class="card bg-info text-light fw-semibold shadow-card" >
                       <img src="img/kapal.svg" class="image-set" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title fw-bold text-danger">kapal api</h5>
+                        <p class="card-text">
+                            "Nikmati perjalanan tak terlupakan dengan kapal, busway, dan pesawat. Pesan sekarang untuk pengalaman luar biasa!"</p>
+                        <a href="#" class="btn btn-primary text-uppercase fw-bold">Yuk Travel</a>
                       </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                  <div class="card" >
+                <div class="col-md">
+                  <div class="card bg-info text-light fw-semibold shadow-card" >
                       <img src="img/bus.svg" class="image-set" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title fw-bold text-danger">Busway</h5>
+                        <p class="card-text">"Nikmati perjalanan tak terlupakan dengan tiket kapal, busway, dan pesawat. Pesan sekarang untuk pengalaman luar biasa!"</p>
+                        <a href="#" class="btn btn-primary text-uppercase fw-bold">Yuk Travel</a>
                       </div>
                     </div>
                 </div>
-                <div class="col-sm">
-                  <div class="card" >
+                <div class="col-md">
+                  <div class="card bg-info text-light fw-semibold shadow-card">
                       <img src="img/pesawat.svg" class="image-set" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title fw-bold text-danger">Tiket peasawat</h5>
+                        <p class="card-text">
+                            "Nikmati perjalanan tak terlupakan dengan kapal, busway, dan pesawat. Pesan sekarang untuk pengalaman luar biasa!"</p>
+                        <a href="#" class="btn btn-primary text-uppercase fw-bold">Yuk Travel</a>
                       </div>
                     </div>
                 </div>
               </div>
             </div>
         </div>
-      
     </section>
+
+    <section class="bg-primary text-light padding-services" id="promo">
+        <div class="container text-center">
+            <h3 class="mb-5">Dapatkan Promo Menarik</h3>
+            <div class="d-md-flex justify-content-center align-items-center ">
+                <div class="input-group gap-2">
+                    <input type="text" class="form-control " placeholder="Cari Promo">
+                    <button class="btn-info btn btn-lg fw-bold fs-4 text-light">Cari Promo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <setion class="bg-body-secondary" id="contact">
+        <div class="container padding-contact ">
+            <h1 class="text-uppercase fs-2 fw-bold text-primary mb-lg-5 text-center " >Contact US</h1>
+            <div class="row ">
+              <div class="col">
+                <ul class="list-group text-primary w-100 m-auto shadow-lg">
+                    <li class="list-group-item">
+                        <div class="container d-md-flex align-items-center gap-2">
+                            <i class="fab fa-instagram fs-1 fw-bod"></i> 
+                            <span class="fs-2 fw-semibold">Instaram</span>
+                        </div>
+                        <p>@maritravel</p>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="container d-md-flex align-items-center gap-2">
+                            <i class="fab fa-whatsapp fs-1 fw-bod"></i> 
+                            <span class="fs-2 fw-semibold ">Whats App</span>
+                        </div>
+                        <p>+62 857-8542-0989</p>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="container d-md-flex align-items-center gap-2">
+                            <i class="fab fa-twitter fs-1 fw-bod"></i> 
+                            <span class="fs-2 fw-semibold ">Twitter</span>
+                        </div>
+                        <p>@maritravelbersama</p>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="container d-md-flex align-items-center gap-2">
+                            <i class="fas fa-envelope fs-1 fw-bod"></i> 
+                            <span class="fs-2 fw-semibold ">Email</span>
+                        </div>
+                        <p>maritravel@gmail.com</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col d-none d-lg-block">
+                <img src="img/contact.svg"  class="img-fluid shadow-lg w-100 h-100" alt="">
+              </div>
+            </div>
+          </div>
+    </setion>
+
+    <footer class="bg-dark text-light p-5 position-rselative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <p class="lead">© 25 oktoker 2004 Mari travel</p>
+                    <a href="#home">
+                        <i class="fas fa-arrow-up fs-1 fw-semibold text-light"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
