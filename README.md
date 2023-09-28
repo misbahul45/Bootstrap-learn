@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-#learn bootstarp talwind react 6 month
-=======
->>>>>>> master
+#learn bootstarp
